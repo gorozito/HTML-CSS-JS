@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>WikipediaViewer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=fire-animation">
+
+<div class="container-fluid">
+  <div class = "w3-container"> 
+    <p class="w3-my-font">Wikipedia Viewer</p>
+  </div>
+   
+  <div class = "w3-row w3-card-4 w3-cyan w3-padding-16 w3-center">
+    <div id = "random" class = "w3-col w3-half w3-padding-32 w3-mobile w3-large">
+        <button id = "doitRandom" class="w3-button w3-teal w3-round-large">Random article</button>
+    </div>
+    <div id = "buscar" class = "w3-col w3-half w3-mobile w3-large">
+      <form class="w3-container w3-teal w3-card-4 w3-round-xxlarge textBox">
+        <label>Search for a specific article</label>
+        <input id = "search" class="w3-input w3-black w3-border" type="text">
+        <button id = "doit" class="w3-btn w3-pink w3-circle">Search</button>
+      </form>
+    </div>
+  </div>
+    
+  <div class = "w3-row w3-padding-16">
+    <div id = "resultado" class = "w3-col w3-mobile w3-large">
+       <ul id = "display-result" class="w3-card-4 w3-grey w3-ul w3-hoverable w3-panel w3-hover-border-black" style="width:100%"></ul>
+    </div>
+  </div>
+
+  <div class = "w3-row footer navbar navbar-default navbar-fixed-bottom"> 
+    <div class="w3-col w3-container w3-mobile">  
+      <p> Coded by
+        <a href="https://www.freecodecamp.org/gorozito" target="_blank" style="color: blue">Nicolás Miracco Rücker</a> copyright 2018</p>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>

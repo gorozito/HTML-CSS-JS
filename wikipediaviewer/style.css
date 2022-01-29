@@ -1,0 +1,55 @@
+body {
+  background-color: cyan;
+  padding-bottom: 150px; 
+}
+
+.searchmatch {
+  color: blue;
+  font-style: italic;
+  
+}
+
+
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background: grey;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  
+}
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+
+.textBox {
+  width: 70%;
+  margin: auto;
+}
+
+a:link {
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.w3-my-font {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 68px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center; 
+  padding: 20px; 
+}
+
+
+
+
+  
