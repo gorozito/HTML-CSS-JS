@@ -1,0 +1,110 @@
+body {   
+    background-image: url("https://images.freeimages.com/images/large-previews/6ea/snow-1171172.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 150px; 
+  }
+
+.container-fluid {
+  text-align: center;
+}
+
+.border-header {
+  border-radius: 25px;
+  border-style: outset;
+  border-color: #7FFFD4;
+  border-width: 5px;
+}
+
+.header {
+  background-image: url("https://images.freeimages.com/images/large-previews/7df/random-lights-1182435.jpg");
+  padding: 25px;
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+  /*vertical-align: text-top;*/
+}
+
+.quote {
+  padding: 25px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  background: rgba(127,255,212, .8);
+  margin-top: 45px;
+}
+
+p {
+  font-size: 25px;
+  color: grey;
+}
+
+h1 {
+  font-size: 85px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial Rounded MT Bold;
+  text-shadow: 16px 8px black;
+  opacity: 1;
+  font-weight: 600;
+  line-height: 35px; 
+}
+
+.author {
+  padding: 10px;
+  font-size: 30px;
+  font-family: Algerian;
+  font-style: italic;
+  text-align: right;
+}
+
+.message {
+  padding: 10px;
+  line-height: 60px;
+  font-size: 28px;
+  font-family: Comic Sans MS;
+  font-style: bold;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background: grey;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+  
+}
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
