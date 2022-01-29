@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SurveyForm</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Survey Form</h1>
+<p id="description">Job application</p><hr>
+
+<form id="survey-form">
+    
+  <label id="form-label"> Name </label><input type="text" id="name" placeholder="Type your name"></input>
+  <label id="form-label"> Email </label><input type="text" id="email" placeholder="Type your Email"></input>
+  <label id="form-label"> Phone Number </label><input type="text" id="number" placeholder="Type your phone"></input>
+
+  <label id="form-label"> Current role </label>
+  <select id="dropdown">
+      <option value="student">Student</option>
+      <option value="full time job">Full time job</option>
+      <option value="full time learner">Full time learner</option>
+      <option value="prefer not to say">Prefer not to say</option>
+      <option value="other">Other</option>
+  </select>
+
+  <label id="form-label"> Gender </label>
+  
+  <div id="radio" action="">
+    <label><input type="radio" name="gender" value="male" checked> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+    <label><input type="radio" name="gender" value="other"> Other</label>
+  </div>
+ 
+  <label id="form-label"> Interests </label>
+
+  <div id="checkbox" action="">
+    <label><input type="checkbox" name="interests" value="front-end development"> Front-end development</label>
+    <label><input type="checkbox" name="interests" value="back-end development"> Back-end development</label>   
+    <label><input type="checkbox" name="interests" value="java development"> Java development</label>        
+    <label><input type="checkbox" name="interests" value="db manager"> DB manager</label>     
+  </div>
+  
+  <label id="form-label"> Comments </label>
+  <textarea placeholder="Enter your comment here..." name="text-area" rows="6"></textarea>
+  
+  <input type="submit" value="Submit">
+</form>
+
+<div class = "w3-row footer navbar navbar-default navbar-fixed-bottom"> 
+    <div class="w3-col w3-container w3-mobile">  
+      <p> Coded by
+        <a href="https://www.freecodecamp.org/gorozito" target="_blank" style="color: blue">Nicolás Miracco Rücker</a> copyright 2018</p>
+    </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

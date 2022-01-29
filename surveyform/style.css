@@ -1,0 +1,125 @@
+body {
+  background: #D5F2DD;
+}
+
+hr { border-top: 2px solid #4CAF50; }
+
+#description {
+  text-align: right;
+  font-style: italic;
+}
+
+#title {
+  text-align: center;  
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 3px 2px #C8C8C8;
+}
+
+input[type=submit] {
+    grid-area: submit;
+    display: grid;
+    width: 20%;
+    margin: 5px 40%;
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text], select, textarea {
+  width: 70%;
+  border-radius: 3px;
+}
+
+#radio {
+  grid-area: radio;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows:  repeat(3, auto);
+  grid-template-areas:
+    "label"
+    "label"
+    "label";
+}
+
+#form-label {
+  text-align: right;
+  background: #C8C8C8;
+  border-radius: 3px;
+}
+
+#checkbox {
+  grid-area: checkbox;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows:  repeat(4, auto);
+  grid-template-areas:
+    "label"
+    "label"
+    "label"
+    "label";
+}
+
+#survey-form {
+    border: 1px solid;
+    box-shadow: 10px 5px 20px #C8C8C8 inset;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 18px;
+    min-height: 40px;
+    width: 60%;
+    margin: auto;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows:  repeat(8, auto);
+    grid-gap: 30px;
+    grid-template-areas:
+      "label input"
+      "label input"
+      "label input"
+      "label select"
+      "label radio"
+      "label checkbox"
+      "label textarea"
+      "submit submit";
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background: grey;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+@media (max-width: 800px) { 
+  #title { font-size: 20px; }  
+  #survey-form {
+    font-size: 10px;
+    min-height: 15px;
+    width: 95%;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 801px) { 
+  #title { font-size: 24px; }  
+  #survey-form {
+    font-size: 12px;
+    min-height: 20px;
+    width: 85%;
+    grid-gap: 15px;
+  }
+}
+
+
+  
+
+
