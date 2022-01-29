@@ -1,0 +1,86 @@
+body {   
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 150px; 
+  }
+
+.container-fluid {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+
+.quote {
+  padding: 25px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  background: rgba(127,255,212, .8);
+  margin-top: 45px;
+}
+
+p {
+  font-size: 25px;
+  color: grey;
+}
+
+h1 {
+  font-size: 85px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial Rounded MT Bold;
+  text-shadow: 16px 8px black;
+  opacity: 1;
+  font-weight: 600;
+  line-height: 35px; 
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background: grey;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+  
+}
+
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.message {
+  padding: 10px;
+  line-height: 60px;
+  font-size: 28px;
+  font-family: Comic Sans MS;
+  font-style: bold;
+}
+
+

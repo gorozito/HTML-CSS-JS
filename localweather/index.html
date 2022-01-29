@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LocalWeather</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+<div class="container-fluid" </div>
+  <div class = "w3-container w3-lobster font-effect-brick-sign"> 
+    <p class="w3-xxxlarge">Local Weather App</p>
+    <p class="w3-xlarge">Climate report according to your location, using the API
+      <a href="https://fcc-weather-api.glitch.me/" target="_blank">FCC Weather</a></p>
+    
+  </div>
+   
+  
+  <div class = "w3-row w3-panel w3-padding-16 w3-lime w3-round-large">
+    <div id = "city" class = "w3-col w3-quarter city w3-mobile w3-large">City</div>
+    <div id = "icono" class = "w3-col w3-quarter w3-mobile w3-large"></div>
+    <div id = "cf" class = "w3-col w3-quarter w3-mobile w3-large">C/F</div>  
+    <div id = "toggle" class = "w3-col w3-quarter w3-mobile w3-large"><button class="w3-button w3-large w3-circle w3-red w3-card-4">Toggle Farenheit</button></div>  
+  </div>
+    
+  
+  <div class = "w3-row w3-panel w3-padding-16 w3-amber w3-round-large">
+    
+    <div id = "presion" class = "w3-col w3-quarter sky w3-mobile w3-large">Pressure</div>
+    <div id = "humedad" class = "w3-col w3-quarter sky wind w3-mobile w3-large">Humidity</div>
+    <div id = "viento" class = "w3-col w3-quarter sky wind w3-mobile w3-large">Wind speed</div>
+    <div id = "direccion" class = "w3-col w3-quarter sky wind w3-mobile w3-large">Wind direction</div>
+  </div>
+  <div class = "w3-row footer navbar navbar-default navbar-fixed-bottom"> 
+    <div class="w3-col w3-container">  
+      <p> Coded by
+        <a href="https://www.freecodecamp.org/gorozito" target="_blank">Nicolás Miracco Rücker</a> copyright 2018
+      </p>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
