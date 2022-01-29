@@ -1,0 +1,98 @@
+body {
+  /*background-color: cyan;*/
+  height: 1300px;
+  background-color: #cccccc;
+  background-image: linear-gradient(white, grey, black);
+  padding-bottom: 150px; 
+}
+
+.searchmatch {
+  color: blue;
+  font-style: italic;
+  
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background: grey;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.border {
+  border: 4px solid black;
+  border-radius: 50px;
+}
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+
+.titOnline {
+  font-size: 14px;
+  color: green;
+}
+
+.titOffline {
+  font-size: 14px;
+  color: red;
+}
+
+.descripcion {
+  font-size: 12px;
+  font-style: italic;
+  
+  
+}
+
+.textBox {
+  width: 70%;
+  margin: auto;
+}
+
+a:link {
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+.w3-my-font {
+  font-family: "Allerta Stencil", Sans-serif;
+  font-size: 88px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: center; 
+  padding: 20px; 
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}

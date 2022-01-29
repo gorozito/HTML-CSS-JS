@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitchtv</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<div class="container-fluid">
+  
+   
+  
+  <!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block w3-collapse w3-card border w3-animate-left" style="width:135px;" id="mySidebar">
+  <h3 class="w3-bar-item">Channels</h3>
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <a id = "all" class="w3-bar-item w3-button"><i class="material-icons"style="font-size:24px">people</i> All</a>
+  <a id = "online" class="w3-bar-item w3-button"><i class="fa fa-play-circle" style="font-size:24px;color:green"></i> Online</a>
+  <a id = "offline" class="w3-bar-item w3-button"><i class="fa fa-bed" style="font-size:24px;color:red"></i> Offline</a>
+  
+</div>
+  
+<div class = "w3-container"> 
+    <p class="w3-my-font" style="margin-left:115px">My twitch TV</p>
+</div>
+  
+<!-- Page Content -->
+<div style="margin-left:10%">
+  
+  
+    
+  <div class = "w3-row w3-padding-16">
+    <div id = "resultado" class = "w3-col w3-mobile w3-large">
+      <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+      <input class="w3-input w3-border w3-animate-input" style="margin-left:115px" type="text" id="myInput" onkeyup="search()" placeholder="Search..." title="Type in a name">
+      
+      <ul id = "myUL" class="w3-card-4 w3-ul w3-hoverable w3-hover-border-black" style="margin-left:115px">
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <div class = "w3-row footer navbar navbar-default navbar-fixed-bottom"> 
+    <div class="w3-col w3-container w3-mobile">  
+      <p> Coded by
+        <a href="https://www.freecodecamp.org/gorozito" target="_blank" style="color: blue">Nicolás Miracco Rücker</a> copyright 2018</p>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
